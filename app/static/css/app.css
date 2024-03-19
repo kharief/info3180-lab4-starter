@@ -18,3 +18,24 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+#image-view{
+    text-decoration: none;
+    list-style: none;
+}
+
+#image-view ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style: none;
+    justify-content: center;
+    /* grid-template-rows: auto; */
+    grid-gap: 10px;
+    text-decoration: none;
+}
+
+#image-view img{
+    height: 300px;
+    width: 300px;
+    /* object-fit: cover; */
+}
